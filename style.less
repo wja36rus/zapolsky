@@ -1,0 +1,191 @@
+@font: 'Barlow', sans-serif;
+@dark-green: #31403f;
+@gray: #f7f7f7;
+
+body {
+  font-family: @font;
+}
+
+.c-green {
+  color: @dark-green
+}
+
+.b-green {
+  background: @dark-green;
+}
+
+header {
+  position: fixed;
+  background: white;
+  padding-bottom: .5rem;
+  z-index: 999999;
+  width: 100%;
+  top: 0;
+
+  .wrap-header {
+    width: 95%;
+    margin: 0 auto;
+  }
+
+  .header-tel {
+    font-size: 13px;
+  }
+
+  .header-btn {
+    display: block;
+    text-decoration: none;
+    background: #31403f;
+    color: white;
+    padding: .5rem;
+  }
+}
+
+main {
+  padding-top: 119px;
+}
+
+#home {
+  padding-bottom: 3rem;
+
+  .h1home {
+    font-size: 3.5rem;
+  }
+
+  .wrap-images-home {
+    width: 95%;
+    margin: 0 auto;
+  }
+
+  .wrap-home {
+    text-align: center;
+    width: 35rem;
+    margin: 0 auto;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+  }
+}
+
+
+#why {
+  .wrap-why {
+    display: flex;
+    align-items: end;
+    width: fit-content;
+    margin: 0 auto;
+    padding: 3rem 0 3rem 0;
+  }
+
+  .item-why {
+    width: 23rem;
+    padding: 2rem;
+    background: @gray;
+    left: -3rem;
+    position: relative;
+  }
+}
+
+#pivot {
+  padding: 3rem 0 3rem 0;
+  text-align: center;
+
+  .item-pivot-image {
+    width: 2rem;
+    margin: 0 auto;
+    padding-bottom: 2rem;
+  }
+
+  .item-pivot {
+    width: 19rem;
+    margin: 0 auto;
+  }
+}
+
+.form-input {
+  height: 3rem;
+}
+
+.btn-forms {
+  background: @dark-green;
+  color: white;
+  height: 3rem;
+  border: none;
+  margin-top: .5rem;
+}
+
+.none768 {
+  display: block;
+}
+
+.display768 {
+  display: none;
+}
+
+#form {
+
+  .right-form {
+    margin: 0 auto;
+  }
+
+  .left-form {
+    background-image: url("images/form-images.jpg");
+    width: 50%;
+    height: 46rem;
+    display: block;
+  }
+}
+
+#about {
+  .wrap-about {
+    width: 35rem;
+    margin: 0 auto;
+  }
+
+  .img-right {
+    width: 50%;
+  }
+
+  .btn-forms {
+    background: @dark-green;
+    color: white;
+    height: 3rem;
+    border: none;
+    margin-top: 0.5rem;
+    text-decoration: none;
+    padding: 0.7rem;
+  }
+}
+
+#step {
+  padding: 5rem 0 5rem 0;
+
+  .wrap-step {
+    width: 80%;
+    margin: 0 auto;
+    padding: 2rem;
+  }
+}
+
+
+#service {
+  .w-fif {
+    width: 50%;
+  }
+
+  .wrap-service {
+    width: 30%;
+    margin: 0 auto;
+  }
+}
+
+.d-1199 {
+  display: none;
+}
+
+#formss {
+  .right-form {
+    width: 40rem;
+    padding: 3rem 0 3rem 0;
+    margin: 0 auto;
+  }
+}
+@import "media";
