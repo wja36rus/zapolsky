@@ -1,3 +1,3 @@
  RewriteEngine On
- RewriteCond %{HTTP_HOST} ^www.decor-events.ru/$ [NC]
- RewriteRule ^(.*)$ https://decor-events.ru//$1 [R=301,L]
+ RewriteCond %{HTTP_HOST} ^www.xn----7sbabhlyjjeel7afo8ak0q.xn--p1ai/$ [NC]
+ RewriteRule ^(.*)$ https://xn----7sbabhlyjjeel7afo8ak0q.xn--p1ai//$1 [R=301,L]
