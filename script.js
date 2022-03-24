@@ -37,6 +37,15 @@ $(document).ready(function () {
             $('#form-mail').css("border", "1px solid black");
             $('#form-say').css("border", "1px solid black");
 
+            $("#form-error").empty().text("Сообщение отправлено");
+            setTimeout(() => {
+                $("#form-error").empty().removeClass('text-danger');
+                $('#form-name').val('');
+                $('#form-mail').val('');
+                $('#form-tel').val('');
+                $('#form-say').val('');
+            }, 2500);
+            /*
             $.ajax({
                 type: "post",
                 url: "send.php",
@@ -61,7 +70,7 @@ $(document).ready(function () {
                         $("#form-error").empty().removeClass('text-danger').adddClass('text-danger').text("Ошибка отправки сообщения");
                     }
                 }
-            });
+            });*/
         }
     });
     $('#send-btns').click(function (e) {
@@ -94,6 +103,14 @@ $(document).ready(function () {
             $('#form-names').css("border", "1px solid black");
             $('#form-mails').css("border", "1px solid black");
 
+            $("#form-errors").empty().text("Сообщение отправлено");
+            setTimeout(() => {
+                $("#form-errors").empty().removeClass('text-danger');
+                $('#form-names').val('');
+                $('#form-mails').val('');
+                $('#form-tels').val('');
+            }, 2500);
+            /*
             $.ajax({
                 type: "post",
                 url: "send.php",
@@ -116,7 +133,7 @@ $(document).ready(function () {
                         $("#form-errors").empty().removeClass('text-danger').adddClass('text-danger').text("Ошибка отправки сообщения");
                     }
                 }
-            });
+            });*/
         }
     });
 });
